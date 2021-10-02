@@ -1,0 +1,9 @@
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Dominio\bin\Debug\netstandard2.0\GAvicola.App.Dominio.deps.json
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Dominio\bin\Debug\netstandard2.0\GAvicola.App.Dominio.dll
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Dominio\bin\Debug\netstandard2.0\GAvicola.App.Dominio.pdb
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Dominio\obj\Debug\netstandard2.0\GAvicola.App.Dominio.csprojAssemblyReference.cache
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Dominio\obj\Debug\netstandard2.0\GAvicola.App.Dominio.AssemblyInfoInputs.cache
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Dominio\obj\Debug\netstandard2.0\GAvicola.App.Dominio.AssemblyInfo.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Dominio\obj\Debug\netstandard2.0\GAvicola.App.Dominio.csproj.CoreCompileInputs.cache
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Dominio\obj\Debug\netstandard2.0\GAvicola.App.Dominio.dll
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Dominio\obj\Debug\netstandard2.0\GAvicola.App.Dominio.pdb
