@@ -14422,6 +14422,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\index.cshtml",
+      "TargetPath": "Pages\\Galpones\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
       "FileKind": "mvc"

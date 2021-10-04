@@ -12,7 +12,7 @@ namespace GAvicola.App.Consola
         { 
           Console.WriteLine("Hello World!");
          // AddGalpon();
-         //EliminarGalpon(4)
+         EliminarGalpon(2);
 
 
        }
