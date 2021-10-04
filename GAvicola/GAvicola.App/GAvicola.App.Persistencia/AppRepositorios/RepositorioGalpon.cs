@@ -21,7 +21,7 @@ using GAvicola.App.Dominio;
 
         void IRepositorioGalpon.DeleteGalpon(int IdGalpon)
         {
-            var galponEncontrado=_appContext.Galpones.FirstOrDefault(p => p.Id==IdGalpon);
+            var galponEncontrado = _appContext.Galpones.FirstOrDefault(p => p.Id==IdGalpon);
             if (galponEncontrado==null)
             {
                 return;
