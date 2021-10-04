@@ -6,47 +6,33 @@ namespace GAvicola.App.Consola
 {
     class Program
     {
-        private static IRepositorioPersona _repoPersona = new RepositorioPersona();
+        private static IRepositorioGalpon _repoGalpon = new RepositorioGalpon();
         static void Main(string[] args)
     
-
-       { 
-        Console.WriteLine("Hello World!");
-        AddPersona();  
+        { 
+          Console.WriteLine("Hello World!");
+         // AddGalpon();
+         //EliminarGalpon(4)
 
 
        }
-        private static void AddPersona()
+      private static void AddGalpon()
         {
-            var persona = new Persona
+            var galpon = new Galpon
             {
-               Usuario = "pablito",
-                Clave = "123",
-                Nombre = "Pablo Perez",
-                NumeroTelefono = "3001645",
-                Direccion = "Calle 4 No 7-4",
-                Correo = "pablito@gmail.com",
+                Nombre="Gallinas ponedoras"
             };
-            _repoPersona.AddPersona(persona);
+            _repoGalpon.AddGalpon(galpon);
         }
+
     
-        private static void BuscarPersona(int IdPersona)
+    private static void EliminarGalpon(int IdGalpon)
+
         {
-            var persona = _repoPersona.GetPersona(IdPersona);
-            Console.WriteLine(persona.Nombre);
+            _repoGalpon.DeleteGalpon(IdGalpon);
+            
+            Console.WriteLine( "Galpon Eliminado");
+
         }
-        private static void EliminarPersona(int IdPersona)
-        {
-            _repoPaciente.DeletePersona(IdPersona);
-            Console.WriteLine("persona Eliminada");
-        }
-        private static void MostrarPersonas()
-        {
-            IEnumerable<Persona> personas = _repoPersona.GetAllPersonas();
-            foreach (var persona in personas)
-            {
-                Console.WriteLine(persona.Nombre + " " + persona.Documento);
-            }
-        }
-    }
-}        
+}
+}

@@ -2,18 +2,13 @@ using System.Collections.Generic;
 using System.Linq;
 using GAvicola.App.Dominio;
 
-
-    namespace GAvicola.App.Persistencia
-{
+ namespace GAvicola.App.Persistencia
+   {
     public class RepositorioGalpon : IRepositorioGalpon
     {
 
-        private readonly AppContext _appContext;
+        private readonly AppContext _appContext = new AppContext();
 
-        public RepositorioGalpon(AppContext appContext)
-        {
-            _appContext=appContext;
-        }
 
 
         Galpon IRepositorioGalpon.AddGalpon(Galpon galpon)
@@ -47,7 +42,7 @@ using GAvicola.App.Dominio;
 
         Galpon IRepositorioGalpon.UpdateGalpon(Galpon galpon)
         {
-            var galponEncontrado=_appContext.Galpones.FirstOrDefault(p => p.Id==galpon.Id);
+            var galponEncontrado=_appContext.Galpones.Find(galpon.Id);
             if (galponEncontrado != null)
                         {
                 galponEncontrado.Nombre=galpon.Nombre;
