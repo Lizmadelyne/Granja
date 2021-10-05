@@ -11,8 +11,12 @@ namespace GAvicola.App.Consola
     
         { 
           Console.WriteLine("Hello World!");
-          AddGalpon();
-         //EliminarGalpon(2);
+
+            //BuscarGalpon(1)
+            //MostrarGalpon();
+            //AsignarGalpon();
+           // AddGalpon();
+          //EliminarGalpon(5);
 
 
        }
@@ -20,7 +24,10 @@ namespace GAvicola.App.Consola
         {
             var galpon = new Galpon
             {
-                Nombre="Galpon 2"
+                Nombre="Galpon 4 PM",
+                Latitud= 5.03907,
+                Longitud= -7544626,
+                NumAves =14000,
             };
             _repoGalpon.AddGalpon(galpon);
         }
