@@ -11,8 +11,8 @@ namespace GAvicola.App.Consola
     
         { 
           Console.WriteLine("Hello World!");
-         // AddGalpon();
-         EliminarGalpon(2);
+          AddGalpon();
+         //EliminarGalpon(2);
 
 
        }
@@ -20,7 +20,7 @@ namespace GAvicola.App.Consola
         {
             var galpon = new Galpon
             {
-                Nombre="Gallinas ponedoras"
+                Nombre="Galpon 2"
             };
             _repoGalpon.AddGalpon(galpon);
         }

@@ -1,0 +1,38 @@
+﻿
+@page
+@model   GAvicola.App.Frontend.Pages.Galpones.Index1Model
+@{}
+    <h1>Listado de Galpones</h1>
+    <table class="table table -striped">
+        <thead>
+            <tr>
+                <th scope="col">Nombre</th>
+                <th scope="col">Latitud</th>
+                <th scope="col">Longitud</th>
+                <th scope="col">Tipo</th>
+                <th scope="col">NumAves</th>
+                <th scope="col">FechaIngreso</th>
+                <th scope="col">FechaSalida</th>
+                <th scope="col">Acciones</th>
+                
+            </tr>
+            <tbody>
+                @foreach (var Galpon in Model.galpones)
+                {
+                <tr>
+                    <td>@Galpon.Nombre</td>
+                    <td>@Galpon.Latitud</td>
+                    <td>@Galpon.Longitud</td>
+                    <td>@Galpon.Tipo</td>
+                    <td>@Galpon.NumAves</td>
+                    <td>@Galpon.FechaIngreso</td>
+                    <td>@Galpon.FechaSalida</td>
+                    <td><a class="btn btn-secondary" asp-page= "" asp-route-id="@Galpon.Id">Detalle</a></td>
+                    <td><a class="btn btn-secondary" asp-page= "" asp-route-id="@Galpon.Id">Editar</a></td>
+                </tr>
+                    
+                }
+            </tbody>
+        </thead>
+    </table>
+
