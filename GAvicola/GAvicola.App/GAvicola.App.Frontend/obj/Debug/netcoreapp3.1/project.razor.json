@@ -14402,6 +14402,11 @@
   "RootNamespace": "GAvicola.App.Frontend",
   "Documents": [
     {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\Details1.cshtml",
+      "TargetPath": "Pages\\Galpones\\Details1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Index.cshtml",
       "TargetPath": "Pages\\Index.cshtml",
       "FileKind": "mvc"
