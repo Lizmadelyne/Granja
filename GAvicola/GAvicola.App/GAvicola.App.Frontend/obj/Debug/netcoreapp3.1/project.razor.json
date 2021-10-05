@@ -14412,8 +14412,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\create1.cshtml",
+      "TargetPath": "Pages\\Galpones\\create1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\Index1.cshtml",
       "TargetPath": "Pages\\Galpones\\Index1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\Edit1.cshtml",
+      "TargetPath": "Pages\\Galpones\\Edit1.cshtml",
       "FileKind": "mvc"
     },
     {

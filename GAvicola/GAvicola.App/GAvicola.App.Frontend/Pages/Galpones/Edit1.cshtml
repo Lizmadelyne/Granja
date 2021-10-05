@@ -1,0 +1,70 @@
+﻿@page
+@using GAvicola.App.Dominio
+@model GAvicola.App.Frontend.Pages.Galpones.Edit1Model
+@{
+}
+<h1> Editar Galpon </h1>
+<form method="POST">
+
+
+    <div class="form group">
+        <label asp-for="galpon.Id"></label>
+        <input asp-for="galpon.Id" class="form control"readonly>
+        <span asp-validation-for="galpon.Id" class="text-danger"></span>
+
+    </div>
+    <div class="form group">
+        <label asp-for="galpon.IdOperario"></label>
+        <input asp-for="galpon.IdOperario" class="form control">
+          </div>
+
+     <div class="form group">
+        <label asp-for="galpon.IdVeterinario"></label>
+        <input asp-for="galpon.IdVeterinario" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="galpon.Nombre"></label>
+        <input asp-for="galpon.Nombre" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="galpon.Latitud"></label>
+        <input asp-for="galpon.Latitud" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="galpon.Longitud"></label>
+        <input asp-for="galpon.Longitud" class="form control">
+          </div>
+
+     <div class="form group">
+        <label asp-for="galpon.Tipo"></label>
+        <input asp-for="galpon.Tipo" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="galpon.NumAves"></label>
+        <input asp-for="galpon.NumAves" class="form control">
+          </div>
+
+          <div class="form group">
+        <label asp-for="galpon.FechaIngreso"></label>
+        <input asp-for="galpon.FechaIngreso" class="form control">
+          </div>
+    <div class="form group">
+        <label asp-for="galpon.FechaSalida"></label>
+        <input asp-for="galpon.FechaSalida" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="galpon.Activo"></label>
+        <input asp-for="galpon.Activo" class="form control">
+        
+          </div>
+
+<button type="submit" class="btn btn-primary">Editar Galpon</button>
+</form>
+ 
+
+<a class="btn btn-secondary" asp-page= ./Index1>Volver</a>

@@ -44,9 +44,18 @@ using GAvicola.App.Dominio;
             var personaEncontrado=_appContext.Personas.Find(persona.Id);
             if (personaEncontrado != null)
                         {
-                personaEncontrado.Nombre=persona.Nombre;
+                personaEncontrado.IdRol=persona.IdRol;
                 personaEncontrado.Usuario=persona.Usuario;
                 personaEncontrado.Clave=persona.Clave;
+                personaEncontrado.Documento=persona.Documento;
+                personaEncontrado.NumeroTelefono=persona.NumeroTelefono;
+                personaEncontrado.Direccion=persona.Direccion;
+                personaEncontrado.Correo=persona.Correo;
+                personaEncontrado.IdVeterinario=persona.IdVeterinario;
+                personaEncontrado.IdOperario=persona.IdOperario;
+                personaEncontrado.IdAuxiliar=persona.IdAuxiliar;
+                personaEncontrado.Tipo=persona.Tipo;
+                personaEncontrado.Activo=persona.Activo;
 
                 _appContext.SaveChanges();
                 

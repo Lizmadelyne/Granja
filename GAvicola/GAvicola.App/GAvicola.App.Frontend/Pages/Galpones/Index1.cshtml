@@ -3,9 +3,11 @@
 @model   GAvicola.App.Frontend.Pages.Galpones.Index1Model
 @{}
     <h1>Listado de Galpones</h1>
+    <a class= "btn btn-primary " asp-page=".\create1">Crear Galpon</a>
     <table class="table table -striped">
         <thead>
             <tr>
+                <th scope="col">Id</th>
                 <th scope="col">Nombre</th>
                 <th scope="col">Latitud</th>
                 <th scope="col">Longitud</th>
@@ -13,13 +15,15 @@
                 <th scope="col">NumAves</th>
                 <th scope="col">FechaIngreso</th>
                 <th scope="col">FechaSalida</th>
-                <th scope="col">Acciones</th>
+                <th scope="col">Activo</th>
+                <th colspan="2"scope="col">Acciones</th>
                 
             </tr>
             <tbody>
                 @foreach (var Galpon in Model.galpones)
                 {
                 <tr>
+                    <td>@Galpon.Id</td>
                     <td>@Galpon.Nombre</td>
                     <td>@Galpon.Latitud</td>
                     <td>@Galpon.Longitud</td>
@@ -27,8 +31,10 @@
                     <td>@Galpon.NumAves</td>
                     <td>@Galpon.FechaIngreso</td>
                     <td>@Galpon.FechaSalida</td>
+                    <td>@Galpon.Activo</td>
+
                     <td><a class="btn btn-secondary" asp-page= "./Details1" asp-route-id="@Galpon.Id">Detalle</a></td>
-                    <td><a class="btn btn-secondary" asp-page= "" asp-route-id="@Galpon.Id">Editar</a></td>
+                    <td><a class="btn btn-secondary" asp-page= ".\Edit1" asp-route-id="@Galpon.Id">Editar</a></td>
                 </tr>
                     
                 }

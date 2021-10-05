@@ -81,3 +81,5 @@ C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\bin\Debug\netcorea
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\bin\Debug\netcoreapp3.1\GAvicola.App.Persistencia.pdb
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\bin\Debug\netcoreapp3.1\GAvicola.App.Dominio.pdb
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Galpones\Details1.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Galpones\create1.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Galpones\Edit1.cshtml.g.cs
