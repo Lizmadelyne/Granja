@@ -7,6 +7,7 @@ namespace GAvicola.App.Consola
     class Program
     {
         private static IRepositorioGalpon _repoGalpon = new RepositorioGalpon();
+        private static IRepositorioPersona _repoPersona = new RepositorioPersona();
         static void Main(string[] args)
     
         { 
@@ -14,8 +15,8 @@ namespace GAvicola.App.Consola
 
             //BuscarGalpon(1)
             //MostrarGalpon();
-            //AsignarGalpon();
-           // AddGalpon();
+            AsignarGalpon();
+           // AddPersona();
           //EliminarGalpon(5);
 
 
@@ -41,5 +42,28 @@ namespace GAvicola.App.Consola
             Console.WriteLine( "Galpon Eliminado");
 
         }
-}
+         private static void AsignarGalpon()
+        {
+            var Galpon = _repoGalpon.AsignarGalpon(1, 1);
+            Console.WriteLine(Galpon.Nombre);
+        }
+         private static void AddPersona()
+        {
+            var persona = new Persona
+            {
+                Usuario="pepito",
+                Clave= 123456,
+                Nombre= "Pepito Perez",
+                Documento =100,
+                NumeroTelefono=8808080,
+                Direccion= "Kra 1 Nro2-3",
+                Correo="pepitoperez@gmail.com",
+                IdVeterinario=1,
+                Activo=1,
+
+            };
+            _repoPersona.AddPersona(persona);
+         }
+         
+    }
 }

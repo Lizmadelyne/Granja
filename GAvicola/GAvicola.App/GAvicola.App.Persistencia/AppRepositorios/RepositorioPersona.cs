@@ -1,6 +1,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using GAvicola.App.Dominio;
+using Microsoft.EntityFrameworkCore;
 
  namespace GAvicola.App.Persistencia
    {
@@ -62,7 +63,10 @@ using GAvicola.App.Dominio;
             }
             return personaEncontrado;
 
+        
+        
         }
+       
 
     }
 

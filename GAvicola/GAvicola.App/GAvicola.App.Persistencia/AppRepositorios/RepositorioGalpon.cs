@@ -2,8 +2,8 @@ using System.Collections.Generic;
 using System.Linq;
 using GAvicola.App.Dominio;
 
- namespace GAvicola.App.Persistencia
-   {
+namespace GAvicola.App.Persistencia
+{
     public class RepositorioGalpon : IRepositorioGalpon
     {
 
@@ -13,7 +13,7 @@ using GAvicola.App.Dominio;
 
         Galpon IRepositorioGalpon.AddGalpon(Galpon galpon)
         {
-            var galponAdicionado= _appContext.Galpones.Add(galpon);
+            var galponAdicionado = _appContext.Galpones.Add(galpon);
             _appContext.SaveChanges();
             return galponAdicionado.Entity;
 
@@ -21,8 +21,8 @@ using GAvicola.App.Dominio;
 
         void IRepositorioGalpon.DeleteGalpon(int IdGalpon)
         {
-            var galponEncontrado = _appContext.Galpones.FirstOrDefault(p => p.Id==IdGalpon);
-            if (galponEncontrado==null)
+            var galponEncontrado = _appContext.Galpones.FirstOrDefault(p => p.Id == IdGalpon);
+            if (galponEncontrado == null)
             {
                 return;
             }
@@ -36,29 +36,29 @@ using GAvicola.App.Dominio;
 
         Galpon IRepositorioGalpon.GetGalpon(int IdGalpon)
         {
-            return _appContext.Galpones.FirstOrDefault(p => p.Id==IdGalpon);
+            return _appContext.Galpones.FirstOrDefault(p => p.Id == IdGalpon);
 
         }
 
         Galpon IRepositorioGalpon.UpdateGalpon(Galpon galpon)
         {
-            var galponEncontrado=_appContext.Galpones.Find(galpon.Id);
+            var galponEncontrado = _appContext.Galpones.Find(galpon.Id);
             if (galponEncontrado != null)
-                        {
-                galponEncontrado.Nombre=galpon.Nombre;
-                galponEncontrado.Latitud=galpon.Latitud;
-                galponEncontrado.Longitud=galpon.Longitud;
+            {
+                galponEncontrado.Nombre = galpon.Nombre;
+                galponEncontrado.Latitud = galpon.Latitud;
+                galponEncontrado.Longitud = galpon.Longitud;
 
                 _appContext.SaveChanges();
-                
+
             }
             return galponEncontrado;
 
+
         }
-
     }
-
 }
+
 
 
 
