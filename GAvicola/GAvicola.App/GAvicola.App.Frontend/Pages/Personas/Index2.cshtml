@@ -1,0 +1,51 @@
+﻿@page
+@model GAvicola.App.Frontend.Pages.Personas.Index2Model
+@{
+}
+<h1>Listado de Usuarios</h1>
+<a class="btn btn-primary " asp-page=".\create2">Crear Usuarios</a>
+<table class="table table -striped">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">IdRol</th>
+            <th scope="col">Usuario</th>
+            <th scope="col">Clave</th>
+            <th scope="col">Nombre</th>
+            <th scope="col">NumeroTelefono</th>
+            <th scope="col">Direccion</th>
+            <th scope="col">Correo</th>
+            <th scope="col">IdVeterinario</th>
+            <th scope="col">IdOperario</th>
+            <th scope="col">IdAuxiliar</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Activo</th>
+            <th colspan="2" scope="col">Acciones</th>
+
+        </tr>
+    <tbody>
+            @foreach(var Persona in Model.personas)
+            {
+            <tr>
+                <td>@Persona.Id</td>
+                <td>@Persona.IdRol</td>
+                <td>@Persona.Usuario</td>
+                <td>@Persona.Clave</td>
+                <td>@Persona.Nombre</td>
+                <td>@Persona.NumeroTelefono</td>
+                <td>@Persona.Direccion</td>
+                <td>@Persona.Correo</td>
+                <td>@Persona.IdVeterinario</td>
+                <td>@Persona.IdOperario</td>
+                <td>@Persona.IdAuxiliar</td>
+                <td>@Persona.Tipo</td>
+                <td>@Persona.Activo</td>
+
+                <td><a class="btn btn-secondary" asp-page="./Details2" asp-route-id="@Persona.Id">Detalle</a></td>
+                <td><a class="btn btn-secondary" asp-page="./Edit2" asp-route-id="@Persona.Id">Editar</a></td>
+            </tr>
+            }
+
+    </tbody>
+    </thead>
+</table>

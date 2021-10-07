@@ -14412,6 +14412,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Personas\\Index2.cshtml",
+      "TargetPath": "Pages\\Personas\\Index2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\create1.cshtml",
       "TargetPath": "Pages\\Galpones\\create1.cshtml",
       "FileKind": "mvc"
@@ -14424,6 +14429,11 @@
     {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\Edit1.cshtml",
       "TargetPath": "Pages\\Galpones\\Edit1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Personas\\create2.cshtml",
+      "TargetPath": "Pages\\Personas\\create2.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14454,6 +14464,16 @@
     {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Personas\\Edit2.cshtml",
+      "TargetPath": "Pages\\Personas\\Edit2.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Personas\\Details2.cshtml",
+      "TargetPath": "Pages\\Personas\\Details2.cshtml",
       "FileKind": "mvc"
     }
   ],
