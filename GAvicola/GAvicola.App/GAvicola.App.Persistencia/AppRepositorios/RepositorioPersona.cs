@@ -8,7 +8,11 @@ using Microsoft.EntityFrameworkCore;
     public class RepositorioPersona : IRepositorioPersona
     {
 
-        private readonly AppContext _appContext = new AppContext();
+        private readonly AppContext _appContext; 
+        public RepositorioPersona(){
+
+        _appContext = new AppContext();
+        }
 
 
 

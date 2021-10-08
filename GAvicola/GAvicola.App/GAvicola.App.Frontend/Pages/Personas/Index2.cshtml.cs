@@ -13,7 +13,7 @@ namespace GAvicola.App.Frontend.Pages.Personas
     public class Index2Model : PageModel
     {
         private readonly IRepositorioPersona _repoPersona;
-        public IEnumerable<Persona> personas {get; set;}
+        public IEnumerable<Persona> Personas {get; set;}
         public Index2Model(IRepositorioPersona repoPersona)
         {
             _repoPersona=repoPersona;
@@ -21,7 +21,7 @@ namespace GAvicola.App.Frontend.Pages.Personas
 
         public void OnGet()
         {
-             personas=_repoPersona.GetAllPersonas();
+             Personas=_repoPersona.GetAllPersonas();
         }
     }
 }

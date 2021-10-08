@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4NmVCu3M2NwMfKw6rAmxPjBK/Flu7oXDFN+qwfgcSIA5flWF8Fmlvs239AFq6A4WOOTYhZ5vf4/umnM8ps2jcg==",
+  "dgSpecHash": "0NA/5/d4Goz+/k/xS8hoH69sjJrV/eyytHH0cBgThC4mYUGQ3tfZA9ZHgImk+jVL1c4wxVG6D0899OVeQNyOWA==",
   "success": true,
   "projectFilePath": "C:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Dominio\\GAvicola.App.Dominio.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Acer\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
