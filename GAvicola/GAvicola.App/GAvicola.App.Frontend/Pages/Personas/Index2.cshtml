@@ -5,29 +5,30 @@
 <h1>Listado de Usuarios</h1>
 <a class="btn btn-primary " asp-page=".\create2">Crear Usuarios</a>
 <table class="table table -striped">
-   
-            @foreach(var persona in Model.Personas)
-            {
+     <thead>
+            
             <tr>
-                <td>@persona.Id</td>
-                <td>@persona.IdRol</td>
-                <td>@persona.Usuario</td>
-                <td>@persona.Clave</td>
-                <td>@persona.Nombre</td>
-                <td>@persona.Telefono</td>
-                <td>@persona.Direccion</td>
-                <td>@persona.Correo</td>
-                <td>@persona.IdVeterinario</td>
-                <td>@persona.IdOperario</td>
-                <td>@persona.IdAuxiliar</td>
-                <td>@persona.Tipo</td>
-                <td>@persona.Activo</td>
+                
+                <th scope="col">Nombre</th>
+                <th scope="col">Documento</th>
+                <th scope="col">Telefono</th>
+                <th scope="col">Direccion</th>
+                
+         <tbody>
+                @foreach (var Persona in Model.Personas)
+                {
+                <tr>
+                    <td>@Persona.Nombre</td>
+                    <td>@Persona.Documento</td>
+                    <td>@Persona.Telefono</td>
+                    <td>@Persona.Direccion</td>
+                    
 
-                <td><a class="btn btn-secondary" asp-page="./Details2" asp-route-id="@persona.Id">Detalle</a></td>
-                <td><a class="btn btn-secondary" asp-page="./Edit2" asp-route-id="@persona.Id">Editar</a></td>
-            </tr>
-            }
-
-    
-    
-</table>
+                    <td><a class="btn btn-secondary" asp-page= "./Details2" asp-route-id="@Persona.Id">Detalle</a></td>
+                    <td><a class="btn btn-secondary" asp-page= "./Edit2" asp-route-id="@Persona.Id">Editar</a></td>
+                </tr>
+                    
+                }
+            </tbody>
+        </thead>
+    </table>

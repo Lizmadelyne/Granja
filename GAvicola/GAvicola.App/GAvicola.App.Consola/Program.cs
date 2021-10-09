@@ -15,8 +15,8 @@ namespace GAvicola.App.Consola
 
             //BuscarGalpon(1)
             //MostrarGalpon();
-           
-           // AddPersona();
+           AddGalpon();
+          // AddPersona();
           //EliminarGalpon(5);
 
 
@@ -25,10 +25,11 @@ namespace GAvicola.App.Consola
         {
             var galpon = new Galpon
             {
-                Nombre="Galpon 4 PM",
-                Latitud= 5.03907,
-                Longitud= -7544626,
-                NumAves =14000,
+                Nombre="Galpon 1 HGP",
+                Latitud= 5.03909,
+                Longitud= 7544624,
+                NumAves = 15000,
+
             };
             _repoGalpon.AddGalpon(galpon);
         }
@@ -47,15 +48,14 @@ namespace GAvicola.App.Consola
         {
             var persona = new Persona
             {
-               // Usuario="pepito",
-                Clave= 123456,
-                Nombre= "Pepito Perez",
-                Documento =100,
-                Telefono=8808080,
-                Direccion= "Kra 1 Nro2-3",
-                Correo="pepitoperez@gmail.com",
-                IdVeterinario=1,
-                Activo=1,
+                Usuario="camilita",
+                Clave= 123,
+                Nombre= "Camila Fajardo",
+                Documento =1020,
+                Telefono=9876654,
+                Direccion= "Kra 2 Nro3-4",
+                Correo="camila@gmail.com",
+                
 
             };
             _repoPersona.AddPersona(persona);

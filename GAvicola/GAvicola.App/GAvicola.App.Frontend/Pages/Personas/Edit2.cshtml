@@ -1,4 +1,84 @@
 ﻿@page
-@model GAvicola.App.Frontend.Pages.Edit2Model
+@using GAvicola.App.Dominio
+@model GAvicola.App.Frontend.Pages.Personas.Edit2Model
 @{
 }
+<h1> Editar Persona </h1>
+<form method="POST">
+
+
+    <div class="form group">
+        <label asp-for="persona.Id"></label>
+        <input asp-for="persona.Id" class="form control"readonly>
+        <span asp-validation-for="persona.Id" class="text-danger"></span>
+
+    <div class="form group">
+        <label asp-for="persona.IdRol"></label>
+        <input asp-for="persona.IdRol" class="form control"readonly>
+        <span asp-validation-for="persona.Id" class="text-danger"></span>
+
+    </div>
+    <div class="form group">
+        <label asp-for="persona.IdRol"></label>
+        <input asp-for="persona.IdRol" class="form control">
+          </div>
+
+     <div class="form group">
+        <label asp-for="persona.Usuario"></label>
+        <input asp-for="persona.Usuario" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="persona.Clave"></label>
+        <input asp-for="persona.Clave" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="persona.Nombre"></label>
+        <input asp-for="persona.Nombre" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="persona.Documento"></label>
+        <input asp-for="persona.Documento" class="form control">
+          </div>
+
+     <div class="form group">
+        <label asp-for="persona.Telefono"></label>
+        <input asp-for="persona.Telefono" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="persona.Direccion"></label>
+        <input asp-for="persona.Direccion" class="form control">
+          </div>
+
+          <div class="form group">
+        <label asp-for="persona.Correo"></label>
+        <input asp-for="persona.Correo" class="form control">
+          </div>
+    <div class="form group">
+        <label asp-for="persona.IdVeterinario"></label>
+        <input asp-for="persona.IdVeterinario" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="persona.IdOperario"></label>
+        <input asp-for="persona.IdOperario" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="persona.Tipo"></label>
+        <input asp-for="persona.Tipo" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="persona.Activo"></label>
+        <input asp-for="persona.Activo" class="form control">
+        
+          </div>
+
+<button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<a class="btn btn-secondary" asp-page= ./Index2>Volver</a>
