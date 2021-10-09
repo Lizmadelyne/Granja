@@ -9,8 +9,9 @@ namespace GAvicola.App.Persistencia
         Galpon UpdateGalpon(Galpon Galpon);
         void DeleteGalpon(int IdGalpon);    
         Galpon GetGalpon(int IdGalpon);
-       // Galpon AsignarGalpon(int IdGalpon, int IdVeterinario);
 
-       
+        Veterinario AsignarVeterinario(int IdGalpon, int IdVeterinario);
+        Operario AsignarOperario(int IdGalpon, int IdOperario);
+
    }
 }

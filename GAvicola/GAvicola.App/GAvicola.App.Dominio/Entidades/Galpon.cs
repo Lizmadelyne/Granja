@@ -9,6 +9,14 @@ namespace GAvicola.App.Dominio
         // Identificador único de cada galpon
     
         public int Id { get; set; }
+
+        // Llave Foranea del Operario para relacionar con el Galpon - 3/Sept/2021
+        public Persona Operario {get;set;}
+
+        //public int IdVeterinario {get;set;}
+        // Llave Foranea del Veterianario para relacionar con el Galpon - 3/Sept/2021
+        public Persona Veterinario {get;set;}
+        
         public int IdOperario { get; set; }
          public int IdVeterinario { get; set; }
         public string Nombre { get; set; }

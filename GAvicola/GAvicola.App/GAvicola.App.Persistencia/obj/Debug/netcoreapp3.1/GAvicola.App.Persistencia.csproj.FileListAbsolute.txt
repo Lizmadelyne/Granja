@@ -12,3 +12,4 @@ C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Persistencia\obj\Debug\netc
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Persistencia\obj\Debug\netcoreapp3.1\GAvicola.App.Persistencia.dll
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Persistencia\obj\Debug\netcoreapp3.1\GAvicola.App.Persistencia.pdb
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Persistencia\obj\Debug\netcoreapp3.1\GAvicola.App.Persistencia.genruntimeconfig.cache
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Persistencia\obj\Debug\netcoreapp3.1\GAvicola.App.Persistencia.csprojAssemblyReference.cache

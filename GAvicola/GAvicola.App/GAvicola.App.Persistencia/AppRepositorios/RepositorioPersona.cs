@@ -53,7 +53,7 @@ using Microsoft.EntityFrameworkCore;
                 personaEncontrado.Usuario=persona.Usuario;
                 personaEncontrado.Clave=persona.Clave;
                 personaEncontrado.Documento=persona.Documento;
-                personaEncontrado.NumeroTelefono=persona.NumeroTelefono;
+                personaEncontrado.Telefono=persona.Telefono;
                 personaEncontrado.Direccion=persona.Direccion;
                 personaEncontrado.Correo=persona.Correo;
                 personaEncontrado.IdVeterinario=persona.IdVeterinario;

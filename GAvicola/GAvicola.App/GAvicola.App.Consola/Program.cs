@@ -15,7 +15,7 @@ namespace GAvicola.App.Consola
 
             //BuscarGalpon(1)
             //MostrarGalpon();
-            AsignarGalpon();
+           
            // AddPersona();
           //EliminarGalpon(5);
 
@@ -42,20 +42,16 @@ namespace GAvicola.App.Consola
             Console.WriteLine( "Galpon Eliminado");
 
         }
-         private static void AsignarGalpon()
-        {
-            var Galpon = _repoGalpon.AsignarGalpon(1, 1);
-            Console.WriteLine(Galpon.Nombre);
-        }
+         
          private static void AddPersona()
         {
             var persona = new Persona
             {
-                Usuario="pepito",
+               // Usuario="pepito",
                 Clave= 123456,
                 Nombre= "Pepito Perez",
                 Documento =100,
-                NumeroTelefono=8808080,
+                Telefono=8808080,
                 Direccion= "Kra 1 Nro2-3",
                 Correo="pepitoperez@gmail.com",
                 IdVeterinario=1,

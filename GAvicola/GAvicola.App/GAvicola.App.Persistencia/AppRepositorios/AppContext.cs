@@ -15,6 +15,9 @@ namespace GAvicola.App.Persistencia
         public DbSet<Persona> Personas{get;set;}
         public DbSet<Programa> Programas{get;set;}
         public DbSet<Rol> Roles{get;set;}
+        public DbSet<Veterinario> Veterinarios{get;set;}
+        public DbSet<Operario> Operarios{get;set;}
+        public DbSet<Auxiliar> Auxiliares{get;set;}
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
      {

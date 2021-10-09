@@ -87,3 +87,6 @@ C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcorea
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\Edit2.cshtml.g.cs
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\Details2.cshtml.g.cs
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Personas\Index2.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\create.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\Index.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Operarios\index.cshtml.g.cs

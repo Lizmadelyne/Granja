@@ -1521,7 +1521,7 @@
       },
       "GAvicola.App.Persistencia/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v3.1",
+        "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
           "GAvicola.App.Dominio": "1.0.0",
           "Microsoft.EntityFrameworkCore": "5.0.9",
