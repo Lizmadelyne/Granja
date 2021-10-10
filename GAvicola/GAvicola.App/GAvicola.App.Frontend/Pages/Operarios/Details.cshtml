@@ -1,0 +1,72 @@
+﻿@page
+@model GAvicola.App.Frontend.Pages.Operarios.DetailsModel
+@{
+}
+<h1>Detalles Operario</h1>
+<table class="table tabLe= striped">
+
+    <tr>
+        <th scope="col">Id</th>
+        <td>@Model.operario.Id</td>
+
+    </tr>
+    <tr>
+        <th scope="col">IdROl</th>
+        <td>@Model.operario.IdRol</td>
+
+    </tr>
+
+    <th scope="col">Tarjeta Profesional</th>
+    <td>@Model.operario.TajetaProfesionalO</td>
+
+    </tr>
+
+    <tr>
+        <th scope="col"></th>
+        <td>@Model.operario.Usuario</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Clave</th>
+        <td>@Model.operario.Clave</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Nombre</th>
+        <td>@Model.operario.Nombre</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Documento</th>
+        <td>@Model.operario.Documento</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Telefono</th>
+        <td>@Model.operario.Telefono</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Direccion</th>
+        <td>@Model.operario.Direccion</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Correo</th>
+        <td>@Model.operario.Correo</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Tipo</th>
+        <td>@Model.operario.Tipo</td>
+    <tr>
+
+        <th scope="col">Activo</th>
+        <td>@Model.operario.Activo</td>
+
+    </tr>
+
+
+</table>
+
+<a class="btn btn-secondary" asp-page=".\index">Volver</a>

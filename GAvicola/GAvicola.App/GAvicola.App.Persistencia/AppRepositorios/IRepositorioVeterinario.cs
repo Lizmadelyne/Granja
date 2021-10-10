@@ -9,8 +9,8 @@ namespace GAvicola.App.Persistencia
         IEnumerable<Veterinario> GetAllVeterinarios();
         Veterinario AddVeterinario(Veterinario veterinario);
         Veterinario UpdateVeterinario(Veterinario veterinario);
-        void DeleteVeterinario(int IdVeterinario);
-        Veterinario GetVeterinario(int IdVeterinario);
+        void DeleteVeterinario(int Id_Veterinario);
+        Veterinario GetVeterinario(int Id_Veterinario);
 
     }
 }

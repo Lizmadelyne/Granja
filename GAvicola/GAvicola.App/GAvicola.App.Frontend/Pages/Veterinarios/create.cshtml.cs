@@ -22,12 +22,12 @@ namespace GAvicola.App.Frontend.Pages.Veterinarios
           veterinario = new Veterinario();
         }
 
-        public IActionResult OnPost(Persona persona)
+        public IActionResult OnPost(Veterinario veterinario)
         {
         if (ModelState.IsValid)
         {
             _repoVeterinario.AddVeterinario(veterinario);
-            return RedirectToPage("Index");
+            return RedirectToPage("index");
 
         }else
         {

@@ -1,0 +1,72 @@
+﻿@page
+@model GAvicola.App.Frontend.Pages.Veterinarios.DetailsModel
+@{
+}
+<h1>Detalles Veterinario</h1>
+<table class="table tabLe= striped">
+
+    <tr>
+        <th scope="col">Id</th>
+        <td>@Model.veterinario.Id</td>
+
+    </tr>
+    <tr>
+        <th scope="col">IdROl</th>
+        <td>@Model.veterinario.IdRol</td>
+
+    </tr>
+
+    <th scope="col">Tarjeta Profesional</th>
+    <td>@Model.veterinario.TajetaProfesionalV</td>
+
+    </tr>
+
+    <tr>
+        <th scope="col">Usuario</th>
+        <td>@Model.veterinario.Usuario</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Clave</th>
+        <td>@Model.veterinario.Clave</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Nombre</th>
+        <td>@Model.veterinario.Nombre</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Documento</th>
+        <td>@Model.veterinario.Documento</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Telefono</th>
+        <td>@Model.veterinario.Telefono</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Direccion</th>
+        <td>@Model.veterinario.Direccion</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Correo</th>
+        <td>@Model.veterinario.Correo</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Tipo</th>
+        <td>@Model.veterinario.Tipo</td>
+    <tr>
+
+        <th scope="col">Activo</th>
+        <td>@Model.veterinario.Activo</td>
+
+    </tr>
+
+
+</table>
+
+ <a class="btn btn-secondary" asp-page=".\index">Volver</a>

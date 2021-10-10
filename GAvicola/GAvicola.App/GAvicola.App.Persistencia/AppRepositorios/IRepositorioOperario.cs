@@ -1,5 +1,5 @@
 using System.Collections.Generic;
-using System.Linq;  // 05 Septiembre 2021
+using System.Linq;  
 using GAvicola.App.Dominio;
 
 namespace GAvicola.App.Persistencia
@@ -8,9 +8,9 @@ namespace GAvicola.App.Persistencia
     {
         IEnumerable<Operario> GetAllOperarios();
         Operario AddOperario(Operario operario);
-        Operario UpdateOperario(Operario opearario);
-        void DeleteOperario(int IdOperario);
-        Operario GetOperario(int IdOperario);
+        Operario UpdateOperario(Operario operario);
+        void DeleteOperario(int Id_Operario);
+        Operario GetOperario(int Id_Operario);
 
     }
 }

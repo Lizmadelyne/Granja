@@ -1,9 +1,10 @@
 ﻿@page
-@model GAvicola.App.Frontend.Pages.Veterinarios.index3Model
+@model GAvicola.App.Frontend.Pages.Veterinarios.indexModel
 @{
 }
 
-<h1>Listado Veterinarios</h1>
+<h1>Lista Veterinarios</h1>
+<a class= "btn btn-primary " asp-page=".\create">Crear Veterinario</a>
 <table class="table table-striped">
     <thead>
         <tr>
@@ -12,23 +13,26 @@
             <th scope="col">Teléfono</th>
             <th scope="col">Dirección</th>
             <th scope="col">Correo</th>
-            <th colspan="2" scope="col">Acciones</th>
+           
         </tr>
     </thead>
 
 
-    @foreach (var veterinario in Model.veterinarios)
+    @foreach (var Veterinario in Model.veterinarios)
     {
         <tr>
-            <td>@veterinario.Nombre</td>
-            <td>@veterinario.Documento</td>
-            <td>@veterinario.Telefono</td>
-            <td>@veterinario.Direccion</td>
-            <td>@veterinario.Correo</td>
-            <td><a class="btn btn-secondary" asp-page="./Details1" asp-route-id="@veterinario.Id">Detalle</a></td>
-            <td><a class="btn btn-secondary" asp-page="./Edit1" asp-route-id="@veterinario.Id">Editar</a></td>
+            <td>@Veterinario.Nombre</td>
+            <td>@Veterinario.Documento</td>
+            <td>@Veterinario.Telefono</td>
+            <td>@Veterinario.Direccion</td>
+            <td>@Veterinario.Correo</td>
+
+            <td><a class="btn btn-secondary" asp-page="./Details" asp-route-id="@Veterinario.Id">Detalle</a></td>
+             <td><a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@Veterinario.Id">Editar</a></td>
         </tr>
+            
     }
 
+       </tbody>
+  </thead>
 </table>
-

@@ -9,14 +9,14 @@ using GAvicola.App.Persistencia;
 
 namespace GAvicola.App.Frontend.Pages.Veterinarios
 {
-    public class index3Model : PageModel
+    public class indexModel : PageModel
     {
 
         private readonly IRepositorioVeterinario _repoVeterinario;
 
         public IEnumerable<Veterinario> veterinarios {get; set; }
 
-        public index3Model(IRepositorioVeterinario repoVeterinario)
+        public indexModel(IRepositorioVeterinario repoVeterinario)
         {
             _repoVeterinario=repoVeterinario;
         }

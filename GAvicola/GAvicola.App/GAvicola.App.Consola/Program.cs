@@ -8,6 +8,7 @@ namespace GAvicola.App.Consola
     {
         private static IRepositorioGalpon _repoGalpon = new RepositorioGalpon();
         private static IRepositorioPersona _repoPersona = new RepositorioPersona();
+        private static IRepositorioOperario _repoOperario = new RepositorioOperario();
         static void Main(string[] args)
     
         { 
@@ -15,9 +16,10 @@ namespace GAvicola.App.Consola
 
             //BuscarGalpon(1)
             //MostrarGalpon();
-           AddGalpon();
+           //AddGalpon();
           // AddPersona();
           //EliminarGalpon(5);
+            AddOperario();
 
 
        }
@@ -60,6 +62,21 @@ namespace GAvicola.App.Consola
             };
             _repoPersona.AddPersona(persona);
          }
-         
+          private static void AddOperario()
+        {
+            var operario = new Operario
+            {
+                Usuario="Felipe",
+                Clave=123456 ,
+                Nombre= "Felipe Castaño",
+                Documento =1020304050,
+                Telefono=8868788,
+                Direccion= "Kra 5 Nro6-7",
+                Correo="felipe@gmail.com",
+                TajetaProfesionalO= "100B",
+            };
+        
+
+        }   
     }
 }

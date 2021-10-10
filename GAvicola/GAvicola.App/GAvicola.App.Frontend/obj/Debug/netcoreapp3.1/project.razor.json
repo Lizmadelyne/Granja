@@ -14422,8 +14422,8 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Veterinarios\\Index.cshtml",
-      "TargetPath": "Pages\\Veterinarios\\Index.cshtml",
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Veterinarios\\index.cshtml",
+      "TargetPath": "Pages\\Veterinarios\\index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14457,8 +14457,28 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Veterinarios\\Edit.cshtml",
+      "TargetPath": "Pages\\Veterinarios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Operarios\\Edit.cshtml",
+      "TargetPath": "Pages\\Operarios\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Privacy.cshtml",
       "TargetPath": "Pages\\Privacy.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Operarios\\Details.cshtml",
+      "TargetPath": "Pages\\Operarios\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Veterinarios\\Details.cshtml",
+      "TargetPath": "Pages\\Veterinarios\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14469,6 +14489,11 @@
     {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Shared\\_Layout.cshtml",
       "TargetPath": "Pages\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Operarios\\Create.cshtml",
+      "TargetPath": "Pages\\Operarios\\Create.cshtml",
       "FileKind": "mvc"
     },
     {

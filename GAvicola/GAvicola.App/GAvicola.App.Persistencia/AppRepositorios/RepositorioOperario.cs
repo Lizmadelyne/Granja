@@ -7,17 +7,10 @@ namespace GAvicola.App.Persistencia
     public class RepositorioOperario : IRepositorioOperario
     {
 
-        
-        private readonly AppContext _appContext;
-
-        // 07 Sept 2021
+        private readonly AppContext _appContext; 
         public RepositorioOperario(){
-            _appContext = new AppContext();
-        }
 
-        public RepositorioOperario(AppContext appContext)
-        {
-            _appContext=appContext;
+        _appContext = new AppContext();
         }
 
 
@@ -29,9 +22,9 @@ namespace GAvicola.App.Persistencia
 
         }
 
-        void IRepositorioOperario.DeleteOperario(int idOperario)
+        void IRepositorioOperario.DeleteOperario(int Id_Operario)
         {
-            var operarioEncontrado=_appContext.Operarios.FirstOrDefault(p => p.Id==idOperario);
+            var operarioEncontrado = _appContext.Operarios.FirstOrDefault(o => o.Id==Id_Operario);
             if (operarioEncontrado==null)
             {
                 return;
@@ -39,37 +32,43 @@ namespace GAvicola.App.Persistencia
             _appContext.Operarios.Remove(operarioEncontrado);
             _appContext.SaveChanges();
         }
-
-
         IEnumerable<Operario> IRepositorioOperario.GetAllOperarios()
         {
             return _appContext.Operarios;
         }
-
-        Operario IRepositorioOperario.GetOperario(int idOperario)
+         Operario IRepositorioOperario.GetOperario(int Id_Operario)
         {
-            return _appContext.Operarios.FirstOrDefault(p => p.Id==idOperario);
+            return _appContext.Operarios.FirstOrDefault(o => o.Id==Id_Operario);
 
         }
 
         Operario IRepositorioOperario.UpdateOperario(Operario operario)
         {
-            var operarioEncontrado=_appContext.Operarios.FirstOrDefault(p => p.Id==operario.Id);
+            var operarioEncontrado=_appContext.Operarios.Find(operario.Id);
             if (operarioEncontrado != null)
-            {
-                operarioEncontrado.Nombre=operario.Nombre;
-                //veterinarioEncontrado.Latitud=veterinario.Latitud;
-                //veterinarioEncontrado.Longitud=veterinario.Longitud;
+                        {
+                operarioEncontrado.IdRol=operario.IdRol;
+                operarioEncontrado.Usuario=operario.Usuario;
+                operarioEncontrado.Clave=operario.Clave;
+                operarioEncontrado.Documento=operario.Documento;
+                operarioEncontrado.Telefono=operario.Telefono;
+                operarioEncontrado.Direccion=operario.Direccion;
+                operarioEncontrado.Correo=operario.Correo;
+                operarioEncontrado.Tipo=operario.Tipo;
+                operarioEncontrado.Activo=operario.Activo;
 
                 _appContext.SaveChanges();
                 
             }
             return operarioEncontrado;
-
+        
+       
         }
-
-
+        
 
     }
 
 }
+
+        
+        

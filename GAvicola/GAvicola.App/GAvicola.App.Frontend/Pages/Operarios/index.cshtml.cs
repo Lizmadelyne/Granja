@@ -14,7 +14,7 @@ namespace GAvicola.App.Frontend.Pages.Operarios
 
         private readonly IRepositorioOperario _repoOperario;
 
-        public IEnumerable<Operario> operarios {get; set; }
+        public IEnumerable<Operario> operario {get; set; }
 
         public indexModel(IRepositorioOperario repoOperario)
         {
@@ -23,7 +23,7 @@ namespace GAvicola.App.Frontend.Pages.Operarios
 
         public void OnGet()
         {
-            operarios=_repoOperario.GetAllOperarios();
+            operario=_repoOperario.GetAllOperarios();
         }
     }
 }

@@ -90,3 +90,8 @@ C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcorea
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\create.cshtml.g.cs
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\Index.cshtml.g.cs
 C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Operarios\index.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Operarios\Details.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Operarios\Edit.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\Details.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Veterinarios\Edit.cshtml.g.cs
+C:\Granja_Avicola\GAvicola\GAvicola.App\GAvicola.App.Frontend\obj\Debug\netcoreapp3.1\Razor\Pages\Operarios\Create.cshtml.g.cs

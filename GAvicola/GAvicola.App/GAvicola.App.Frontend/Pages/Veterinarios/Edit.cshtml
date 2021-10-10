@@ -1,0 +1,77 @@
+﻿@page
+@using GAvicola.App.Dominio
+@model GAvicola.App.Frontend.Pages.Veterinarios.EditModel
+@{
+}
+<h1> Editar Veterinario</h1>
+<form method="POST">
+
+
+    <div class="form group">
+        <label asp-for="veterinario.Id"></label>
+        <input asp-for="veterinario.Id" class="form control" readonly>
+        <span asp-validation-for="veterinario.Id" class="text-danger"></span>
+
+        <div class="form group">
+            <label asp-for="veterinario.IdRol"></label>
+            <input asp-for="veterinario.IdRol" class="form control" readonly>
+<span asp-validation-for="veterinario.Id" class="text-danger"></span>
+
+        </div>
+
+        <div class="form group">
+            <label asp-for="veterinario.Usuario"></label>
+            <input asp-for="veterinario.Usuario" class="form control">
+        </div>
+
+        <div class="form group">
+            <label asp-for="veterinario.Clave"></label>
+            <input asp-for="veterinario.Clave" class="form control">
+        </div>
+
+        <div class="form group">
+            <label asp-for="veterinario.Nombre"></label>
+            <input asp-for="veterinario.Nombre" class="form control">
+        </div>
+
+        <div class="form group">
+            <label asp-for="veterinario.Documento"></label>
+            <input asp-for="veterinario.Documento" class="form control">
+        </div>
+
+        <div class="form group">
+            <label asp-for="veterinario.Telefono"></label>
+            <input asp-for="veterinario.Telefono" class="form control">
+        </div>
+
+        <div class="form group">
+            <label asp-for="veterinario.Direccion"></label>
+            <input asp-for="veterinario.Direccion" class="form control">
+        </div>
+
+        <div class="form group">
+            <label asp-for="veterinario.Correo"></label>
+            <input asp-for="veterinario.Correo" class="form control">
+        </div>
+        <div class="form group">
+            <label asp-for="veterinario.TajetaProfesionalV"></label>
+            <input asp-for="veterinario.TajetaProfesionalV" class="form control">
+        </div>
+
+
+        <div class="form group">
+            <label asp-for="veterinario.Tipo"></label>
+            <input asp-for="veterinario.Tipo" class="form control">
+        </div>
+
+        <div class="form group">
+            <label asp-for="veterinario.Activo"></label>
+            <input asp-for="veterinario.Activo" class="form control">
+
+        </div>
+
+    <button type="submit" class="btn btn-primary">Editar Veterinario</button>
+</form>
+
+  <a class="btn btn-secondary" asp-page=".\index">volver</a>
+     
