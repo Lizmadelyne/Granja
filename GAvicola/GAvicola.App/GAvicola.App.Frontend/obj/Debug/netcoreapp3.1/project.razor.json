@@ -14417,6 +14417,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\GAmbientes\\Edit.cshtml",
+      "TargetPath": "Pages\\GAmbientes\\Edit.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\create1.cshtml",
       "TargetPath": "Pages\\Galpones\\create1.cshtml",
       "FileKind": "mvc"
@@ -14434,6 +14439,21 @@
     {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Veterinarios\\create.cshtml",
       "TargetPath": "Pages\\Veterinarios\\create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\GAmbientes\\Details.cshtml",
+      "TargetPath": "Pages\\GAmbientes\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\GSugerencias\\Create.cshtml",
+      "TargetPath": "Pages\\GSugerencias\\Create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\GSugerencias\\index.cshtml",
+      "TargetPath": "Pages\\GSugerencias\\index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14462,6 +14482,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\GAmbientes\\index.cshtml",
+      "TargetPath": "Pages\\GAmbientes\\index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Operarios\\Edit.cshtml",
       "TargetPath": "Pages\\Operarios\\Edit.cshtml",
       "FileKind": "mvc"
@@ -14477,6 +14502,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\GAmbientes\\create.cshtml",
+      "TargetPath": "Pages\\GAmbientes\\create.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Veterinarios\\Details.cshtml",
       "TargetPath": "Pages\\Veterinarios\\Details.cshtml",
       "FileKind": "mvc"
@@ -14484,6 +14514,11 @@
     {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Error.cshtml",
       "TargetPath": "Pages\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\AddOperarios.cshtml",
+      "TargetPath": "Pages\\Galpones\\AddOperarios.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -14502,8 +14537,18 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\GSugerencias\\Details.cshtml",
+      "TargetPath": "Pages\\GSugerencias\\Details.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\_ViewImports.cshtml",
       "TargetPath": "Pages\\_ViewImports.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Granja_Avicola\\GAvicola\\GAvicola.App\\GAvicola.App.Frontend\\Pages\\Galpones\\AddVeterinarios.cshtml",
+      "TargetPath": "Pages\\Galpones\\AddVeterinarios.cshtml",
       "FileKind": "mvc"
     },
     {

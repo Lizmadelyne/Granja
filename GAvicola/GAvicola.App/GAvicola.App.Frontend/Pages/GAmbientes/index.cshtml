@@ -1,0 +1,37 @@
+﻿@page
+@model GAvicola.App.Frontend.Pages.GAmbientes.indexModel
+@{
+}
+<h1>Registro Ambiental</h1>
+<a class="btn btn-primary " asp-page=".\create">Crear Registro</a>
+<table class="table table -striped">
+    <thead>
+
+        <tr>
+
+            <th scope="col">Temperatura</th>
+            <th scope="col">Agua</th>
+            <th scope="col">Alimento</th>
+            <th scope="col">Huevos</th>
+             </tr>
+          </thead>
+    <tbody>
+                @foreach (var GAmbiente in Model.GAmbientes)
+                {
+            <tr>
+                <td>@GAmbiente.Temperatura</td>
+                <td>@GAmbiente.Agua</td>
+                <td>@GAmbiente.Alimento</td>
+                <td>@GAmbiente.Huevos</td>
+
+
+                <td><a class="btn btn-secondary" asp-page="./Details" asp-route-id="@GAmbiente.Id">Detalles</a></td>
+                <td><a class="btn btn-secondary" asp-page="./Edit" asp-route-id="@GAmbiente.Id">Editar</a></td>
+            </tr>
+
+                }
+    </tbody>
+
+    </thead>
+
+</table>

@@ -46,7 +46,36 @@
 
     </tr>
 
+<tr>
+   <th scope="col">Veterinario</th>
+        @if (Model.galpon.Veterinario == null)
+        {
+            <th> 
+                <a class= "btn btn-secondary" asp-page="./AddVeterinarios" asp-route-id="@Model.galpon.Id">Asignar Veterinario1</a>
+            </th>
+}
+        else
+        {
+            <td>@Model.galpon.Veterinario.Nombre</td>
+        }
+    </tr>
+    <tr>
 
-</table>
+    <th scope="col">Operario</th>
+        @if (Model.galpon.Operario == null)
+        {
+             <th>              
+                <a class= "btn btn-secondary" asp-page="./AddOperario" asp-route-id="@Model.galpon.Id">Asignar Operario2</a>
+            </th>
+        }
+        else
+        {
+            <td>@Model.galpon.Operario.Nombre</td>
+        }
 
-      <a class="btn btn-secondary" asp-page=".\Index1">Volver</a>
+      
+    </tr>
+    
+
+ </table>
+   <a class="btn btn-secondary" asp-page= ./Index1>Volver</a>

@@ -1,0 +1,43 @@
+﻿@page
+@model GAvicola.App.Frontend.Pages.GSugerencias.DetailsModel
+@{
+}
+<h1>Detalles Sugerencias</h1>
+<table class= "table table= striped">
+    <tr>
+        <th scope="col">.Id</th>
+        <td>@Model.sugerencia.Id</td>
+
+    </tr>
+
+    <tr>
+        <th scope="col">IdVeterinario</th>
+        <td>@Model.sugerencia.IdVeterinario</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Diagnostico</th>
+        <td>@Model.sugerencia.Diagnostico</td>
+
+    </tr>
+ <tr>
+        <th scope="col">Fecha</th>
+        <td>@Model.sugerencia.Fecha</td>
+
+    </tr>
+
+<tr>
+        <th scope="col">Tipo</th>
+        <td>@Model.sugerencia.Tipo</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Activo</th>
+        <td>@Model.sugerencia.Activo</td>
+
+    </tr>
+     
+
+</table>
+
+    <a class="btn btn-secondary" asp-page="./index">Volver</a>  

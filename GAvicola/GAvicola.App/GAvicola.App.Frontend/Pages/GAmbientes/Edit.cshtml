@@ -1,0 +1,70 @@
+﻿@page
+@using GAvicola.App.Dominio
+@model GAvicola.App.Frontend.Pages.GAmbientes.EditModel
+@{
+}
+<h1> Editar Ambiente </h1>
+<form method="POST">
+
+    <div class="form group">
+        <label asp-for="gambiente.Id"></label>
+        <input asp-for="gambiente.Id" class="form control">
+        <span asp-validation-for="gambiente.Id" class="text-danger"></span>
+          </div>
+    
+    <div class="form group">
+        <label asp-for="gambiente.IdGalpon"></label>
+        <input asp-for="gambiente.IdGalpon" class="form control">
+          </div>
+
+
+    <div class="form group">
+        <label asp-for="gambiente.IdOperario"></label>
+        <input asp-for="gambiente.IdOperario" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="gambiente.Temperatura"></label>
+        <input asp-for="gambiente.Temperatura" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="gambiente.Agua"></label>
+        <input asp-for="gambiente.Agua" class="form control">
+          </div>
+
+     <div class="form group">
+        <label asp-for="gambiente.Alimento"></label>
+        <input asp-for="gambiente.Alimento" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="gambiente.Huevos"></label>
+        <input asp-for="gambiente.Huevos" class="form control">
+          </div>
+
+          <div class="form group">
+        <label asp-for="gambiente.Enfermas"></label>
+        <input asp-for="gambiente.Enfermas" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="gambiente.Fecha"></label>
+        <input asp-for="gambiente.Fecha" class="form control">
+        
+          </div>
+
+        
+          </div>
+     <div class="form group">
+        <label asp-for="gambiente.Activo"></label>
+        <input asp-for="gambiente.Activo" class="form control">
+        
+          </div>
+
+    <button type="submit" class="btn btn-primary">Editar Registro</button>
+</form>
+
+   <a class="btn btn-secondary" asp-page=".\index">Volver</a>
+
+    

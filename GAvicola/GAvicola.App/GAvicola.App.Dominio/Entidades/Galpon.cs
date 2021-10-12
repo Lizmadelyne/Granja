@@ -27,6 +27,11 @@ namespace GAvicola.App.Dominio
         public DateTime FechaIngreso { get; set; }
         public DateTime FechaSalida { get; set; }
         public int Activo { get; set; }
+
+        public static implicit operator int(Galpon v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
    

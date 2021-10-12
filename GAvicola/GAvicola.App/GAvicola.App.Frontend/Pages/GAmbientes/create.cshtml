@@ -1,0 +1,68 @@
+﻿@page
+@using GAvicola.App.Dominio
+@model GAvicola.App.Frontend.Pages.createModel
+@{
+}
+<h1> Nuevo Registro Ambiental </h1>
+<form method="POST">
+
+
+    <div class="form group">
+        <label asp-for="gAmbiente.Id"></label>
+        <input asp-for="gAmbiente.Id" class="form control">
+        <span asp-validation-for="gAmbiente.Id" class="text-danger"></span>
+          </div>
+    
+    <div class="form group">
+        <label asp-for="gAmbiente.IdGalpon"></label>
+        <input asp-for="gAmbiente.IdGalpon" class="form control">
+          </div>
+
+
+    <div class="form group">
+        <label asp-for="gAmbiente.IdOperario"></label>
+        <input asp-for="gAmbiente.IdOperario" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="gAmbiente.Temperatura"></label>
+        <input asp-for="gAmbiente.Temperatura" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="gAmbiente.Agua"></label>
+        <input asp-for="gAmbiente.Agua" class="form control">
+          </div>
+
+     <div class="form group">
+        <label asp-for="gAmbiente.Alimento"></label>
+        <input asp-for="gAmbiente.Alimento" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="gAmbiente.Huevos"></label>
+        <input asp-for="gAmbiente.Huevos" class="form control">
+          </div>
+
+          <div class="form group">
+        <label asp-for="gAmbiente.Enfermas"></label>
+        <input asp-for="gAmbiente.Enfermas" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="gAmbiente.Fecha"></label>
+        <input asp-for="gAmbiente.Fecha" class="form control">
+        
+          </div>
+
+        
+          </div>
+     <div class="form group">
+        <label asp-for="gAmbiente.Activo"></label>
+        <input asp-for="gAmbiente.Activo" class="form control">
+        
+          </div>
+
+    <button type="submit" class="btn btn-primary">Crear Registro Ambiental</button>
+    </form>
+<A class="btn btn-secondary" asp-page="./index">Volver</a>

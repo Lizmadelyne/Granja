@@ -1,0 +1,24 @@
+﻿@page
+@model GAvicola.App.Frontend.Pages.Galpones.AddVeterinariosModel
+@{
+}
+<h1>Asignar Veterinario</h1>
+<form method="post">
+    <div class="form-group">
+        <label for="idGalpon">Galpon</label>
+        <input type="hidden" Id="IdGalpon"name="IdGalpon" class="form-control" value="@Model.galpon.Id" readonly>
+        <input type="text" class="form-control" value="@Model.galpon.Nombre" readonly>
+    </div>
+    <div class="form-group">
+        <label for="IdVeterinario">Veterinario</label>
+        <select name="IdVeterinario" id="IdVeterinario" class="form-control">
+            @foreach (var veterinario in Model.veterinarios)
+            {
+                <option value="@veterinario.Id">@veterinario.Nombre</option>
+            }
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary btn-block">Asignar Veterinario</button>
+</form>
+
+ <a class="btn btn-secondary" asp-page=".\Index1">Volver</a>

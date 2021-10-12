@@ -1,0 +1,51 @@
+﻿@page
+@model GAvicola.App.Frontend.Pages.GSugerencias.CreateModel
+@{
+}
+<h1> Nueva Sugerencia </h1>
+<form method="POST">
+
+
+    <div class="form group">
+        <label asp-for="sugerencia.Id"></label>
+        <input asp-for="sugerencia.Id" class="form control">
+        <span asp-validation-for="sugerencia.Id" class="text-danger"></span>
+          </div>
+    
+    <div class="form group">
+        <label asp-for="sugerencia.IdVeterinario"></label>
+        <input asp-for="sugerencia.IdVeterinario" class="form control">
+          </div>
+
+     <div class="form group">
+        <label asp-for="sugerencia.Diagnostico"></label>
+        <input asp-for="sugerencia.Diagnostico" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="sugerencia.Sugerencia"></label>
+        <input asp-for="sugerencia.Sugerencia" class="form control">
+          </div>
+
+    <div class="form group">
+        <label asp-for="sugerencia.Fecha"></label>
+        <input asp-for="sugerencia.Fecha" class="form control">
+          </div>
+    
+     <div class="form group">
+        <label asp-for="sugerencia.Tipo"></label>
+        <input asp-for="sugerencia.Tipo" class="form control">
+        
+          </div>
+     <div class="form group">
+        <label asp-for="sugerencia.Activo"></label>
+        <input asp-for="sugerencia.Activo" class="form control">
+        
+          </div>
+
+
+  <button type="submit" class="btn btn-primary">Crear Sugerencias</button>
+ 
+
+</form>
+<A class="btn btn-secondary" asp-page="./index">Volver</a>

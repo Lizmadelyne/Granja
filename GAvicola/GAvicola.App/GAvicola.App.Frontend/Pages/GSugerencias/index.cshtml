@@ -1,0 +1,33 @@
+﻿@page
+@model GAvicola.App.Frontend.Pages.GSugerencias.indexModel
+@{
+}
+<h1>Lista de Sugerencias</h1>
+<a class="btn btn-primary " asp-page=".\Create">Crear Sugerencias</a>
+<table class="table table -striped">
+     <thead>
+            
+            <tr>
+                
+                <th scope="col">Diagnostico</th>
+                <th scope="col">Sugerencias</th>
+                <th scope="col">Fecha</th>
+              
+                
+         <tbody>
+                @foreach (var GSugerencia in Model.GSugerencia)
+                {
+                <tr>
+                    <td>@GSugerencia.Diagnostico</td>
+                    <td>@GSugerencia.Sugerencia</td>
+                    <td>@GSugerencia.Fecha</td>
+                    
+                    
+
+                    <td><a class="btn btn-secondary" asp-page= "./Details" asp-route-id="@GSugerencia.Id">Detalle</a></td>
+                </tr>
+                    
+                }
+            </tbody>
+        </thead>
+    </table>

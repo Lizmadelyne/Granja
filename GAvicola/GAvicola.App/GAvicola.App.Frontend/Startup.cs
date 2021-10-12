@@ -29,6 +29,8 @@ namespace GAvicola.App.Frontend
            services.AddSingleton<IRepositorioPersona ,RepositorioPersona>();
            services.AddSingleton<IRepositorioVeterinario ,RepositorioVeterinario>();
            services.AddSingleton<IRepositorioOperario, RepositorioOperario>();
+           services.AddSingleton<IRepositorioGAmbiente, RepositorioGAmbiente>();
+            services.AddSingleton<IRepositorioGSugerencia, RepositorioGSugerencia>();
            
         }
         

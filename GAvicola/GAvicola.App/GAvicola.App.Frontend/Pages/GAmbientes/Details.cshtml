@@ -1,0 +1,63 @@
+﻿@page
+@model GAvicola.App.Frontend.Pages.GAmbientes.DetailsModel
+@{
+}
+<h1>Detalles Ambientales</h1>
+<table class="table tabLe= striped">
+
+    <tr>
+        <th scope="col">Id</th>
+        <td>@Model.gambiente.Id</td>
+
+    </tr>
+    <tr>
+        <th scope="col">IdGalpon</th>
+        <td>@Model.gambiente.IdGalpon</td>
+
+    </tr>
+
+    <th scope="col">IdOperario</th>
+    <td>@Model.gambiente.IdOperario</td>
+
+    </tr>
+
+    <tr>
+        <th scope="col">Temperatura</th>
+        <td>@Model.gambiente.Temperatura</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Agua</th>
+        <td>@Model.gambiente.Agua</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Alimento</th>
+        <td>@Model.gambiente.Alimento</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Huevos</th>
+        <td>@Model.gambiente.Enfermas</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Enfermas</th>
+        <td>@Model.gambiente.Enfermas</td>
+
+    </tr>
+    <tr>
+        <th scope="col">Fecha</th>
+        <td>@Model.gambiente.Fecha</td>
+
+    </tr>
+
+        <th scope="col">Activo</th>
+        <td>@Model.gambiente.Activo</td>
+
+    </tr>
+
+
+</table>
+
+<a class="btn btn-secondary" asp-page=".\index">Volver</a>
